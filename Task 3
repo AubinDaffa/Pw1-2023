@@ -1,0 +1,46 @@
+<html>
+<head><title>Portofolio Aubin Daffa</title></head>
+
+<body>
+    <header>
+        <h1>Selamat Datang di Portofolio Saya</h1>
+    </header>
+</body>
+<section>
+    <h3>Tentang Saya</h3>
+    <li>nama : Aubin Daffa athoillah</li>
+    <li>Prodi : sistem informasi</li>
+    <li>NIM : '082123447063'</li>
+    <li>Alamat : Perum Citra Indah Cluster bukit ravenia AQ 7 No 9</li>
+    <li>Hobi : membaca,main game,mencoba hal baru</li>
+    <br>
+    </section>
+    <section>
+        <h3>Pendidikan</h3>
+        <li> SD Cikal Harapan 2</li>
+        <li>SMPIT Fatahillah</li>
+        <li>SMK Pijar Alam 2</li>
+        <li>STT Nurul Fikri</li>
+    </section>
+    <section>
+    <h2>Hubungi Saya</h2>
+    <label>nama</label>
+    <input type='text'>
+    <br>
+    <label>Email</label>
+    <input type='email'>
+    <br>
+    <label>Pesan</label>
+    <textarea  rows="10" cols="30"></textarea>
+    <br>
+    <input type="submit" value="kirim">
+    </section>
+    
+    <section>
+        <h2>Video</h2>
+        <iframe width="560"  height="315" src=  https://youtu.be/XG2CqAtQFzY?si=3r8GbLNPUDNtv-Tqframeborder="0" allowfullscreen></iframe>
+    </section>
+<footer>
+    <p>&copy;2023 Aubin Daffa Athoillah</p>
+</footer>
+</html>
