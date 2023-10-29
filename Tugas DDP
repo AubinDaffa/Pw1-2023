@@ -1,0 +1,23 @@
+kendaraan = ["Toyota","mobil","Honda","1100cc"]
+
+kendaraan.append("hijau")
+kendaraan.insert(2,7)
+kendaraan.append("200 jt")
+kendaraan.remove("mobil")
+
+print(kendaraan)
+
+print(' ' 'Pilih 1 untuk menghitung luas persegi,Pilih 2 untuk menghitung luas lingkaran,Pilih 3 untuk menghitung luas segitiga' ' ')
+luas = input ("luas bangun datar?")
+
+match luas :
+    case "1" :
+         s = int (input ("masukan sisi"))
+         print (s*s)
+    case "2" :
+         v = 3.14
+         r = int (input ("masukan nilai r"))
+         print (v*r*r)
+    case "3" :
+         alas = int (input ("masukan nilai alas"))
+         t = int (input ("masukan nilai t"))
