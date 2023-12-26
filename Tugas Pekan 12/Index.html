@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Login Page</title>
+</head>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 600;
+            text-align: center;
+        }
+        section {
+            display: flex;
+            justify-content: center;
+        }
+        span {
+            font-weight: bold;
+        }
+        
+    </style>
+<body>
+    
+    <h1>Login Page</h1>
+    <section>
+    <span>Username</span>
+    <form>
+        <input id="username">
+    </form>
+    <span>Password</span>
+    <form>
+        <input id="password">
+    </form>
+    <button onclick="validateLogin()">Log In</button>
+    </section>
+
+    <script src="auth.js"></script>
+</body>
+</html>
